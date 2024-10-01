@@ -1,0 +1,106 @@
+/* Navbar container styling */
+.navbarWrapper {
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Style for when the navbar is scrolled */
+  .navbarScrolled {
+    background-color: rgb(66, 66, 158); /* Green background on scroll */
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Logo/Brand styling */
+  .brand {
+    color: white;
+    font-size: 24x;
+    font-weight: bold;
+  }
+  
+  /* Remove link underlines and style the links */
+  .navLink {
+    color: white;
+    text-decoration: none;
+    /* padding: 10px 15px; */
+    transition: color 0.3s ease;
+    font-size: 25px;
+    margin-top: -10px;
+  }
+  
+  /* Hover effect on navbar links */
+  .navLink:hover {
+    color: white; /* Bright green on hover */
+    text-decoration: none;
+    
+
+  }
+  
+  /* Dropdown styling */
+  .navDropdown .dropdown-menu {
+
+    border: none;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    font-size: 25px;
+  }
+  
+  /* Dropdown items styling */
+  .dropdownLink {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    background-color: rgb(78, 78, 199);    
+  }
+  
+  /* Hover effect on dropdown items */
+  .dropdownLink:hover {
+    text-decoration: none;
+    
+  }
+  
+  /* Remove link underlines from dropdown */
+  .dropdownLink:focus, .dropdownLink:hover {
+    text-decoration: none;
+  }
+  
+  /* Styling for the navbar wrapper */
+.navbarWrapper {
+    background-color: transparent;
+  }
+  
+  /* When scrolled, navbar gets a background */
+  .navbarScrolled {
+    background-color: rgba(68, 160, 221, 0.9); /* Green background */
+  }
+  
+  /* Logo styling */
+  .logo {
+    height: 100px;
+    width: auto;
+  }
+  
+  /* Link styling */
+  .navLink {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: color 0.3s ease;
+  }
+  
+  /* Hover effect on navbar links */
+  .navLink:hover {
+    color: #0B5ED7; /* Bright green on hover */
+    text-decoration: none;
+  }
+  
+  /* Dropdown items styling */
+  .dropdownLink {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+  }
+
+  
+  

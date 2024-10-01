@@ -1,0 +1,141 @@
+/* Accommodations.css */
+.accommodation-page {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.filters-container {
+  display: flex;
+  width: 20%;
+}
+
+.country-filter, .city-filter {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.widget-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.country-item, .city-item {
+  padding: 10px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.country-item:hover, .city-item:hover {
+  background-color: #e0e0e0;
+}
+
+.country-item.active, .city-item.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.accommodation-list {
+  width: 65%;
+}
+
+.accommodation-list .d-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.accommodation-list .card {
+  transition: transform 0.3s ease;
+}
+
+.accommodation-list .card:hover {
+  transform: scale(1.05);
+}
+
+
+.accommodation-page {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sidebar {
+  width: 250px;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-right: 1px solid #ddd;
+}
+
+.sidebar .widget-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.sidebar .custom-control {
+  margin-bottom: 10px;
+}
+
+.accommodation-list {
+  flex: 1;
+  padding: 20px;
+}
+
+.accommodation-list .card {
+  transition: box-shadow 0.3s ease;
+}
+
+.accommodation-list .card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  margin: 20px auto;
+}
+
+.card {
+  border: none;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+
+.link-button {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  margin-top: 0.5rem;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+}
+
+.link-button:hover {
+  background-color: #0056b3;
+  text-decoration: none;
+}
+
+.link-button:focus {
+  outline: none;
+  box-shadow: none;
+}

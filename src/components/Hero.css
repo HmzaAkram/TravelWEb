@@ -1,0 +1,39 @@
+.hero-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center; /* Center the heading vertically */
+    justify-content: flex-start; /* Align text to the left */
+}
+
+.hero-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.hero-heading {
+    position: relative; /* Changed to relative for better flow */
+    padding: 20px; /* Add padding for breathing space */
+    color: white;
+    font-size: 3rem; /* Adjust as needed */
+    text-align: left; /* Align text to the left */
+    z-index: 1; /* Ensure it's above the video */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Shadow for better visibility */
+    letter-spacing: 1px; /* Slightly increase spacing for a modern look */
+    line-height: 1.2; /* Improved line height for readability */
+}
+
+/* Optional: Add a responsive design */
+@media (max-width: 768px) {
+    .hero-heading {
+        font-size: 2.5rem; /* Adjust font size for smaller screens */
+        padding: 15px; /* Adjust padding for smaller screens */
+    }
+}

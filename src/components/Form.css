@@ -1,0 +1,252 @@
+/* .w3l-newsletter .form-25-mian {
+    background: url(../../public/assets/images/b8.jpg) no-repeat top;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .w3l-newsletter .form-25-mian:before {
+    content: "";
+    background: rgba(8, 67, 76, 0.74);
+    position: absolute;
+    top: 0;
+    min-height: 100%;
+    left: 0;
+    right: 0;
+    z-index: -1;
+  }
+  
+  .w3l-newsletter .forms-25-info {
+    max-width: 600px;
+    text-align: left;
+    margin-left: auto;
+  }
+  
+  .w3l-newsletter h3.hny-title.two {
+    margin-bottom: 10px;
+  }
+  
+  .w3l-newsletter p {
+    font-style: normal;
+    font-size: 15px;
+    line-height: 26px;
+    color: #fff;
+  }
+  
+  .w3l-newsletter .forms-gds {
+    display: flex;
+  }
+  
+  .w3l-newsletter .forms-25-info input {
+    background: #fff;
+    width: 70%;
+    font-size: 16px;
+    padding: 0px 15px;
+    color: #fff;
+    height: 50px;
+    text-align: left;
+    -webkit-appearance: none;
+    outline: none;
+    float: left;
+    border: none;
+    border-radius: 0;
+    -webkit-border-top-left-radius: 6px;
+    -webkit-border-bottom-left-radius: 6px;
+    -moz-border-radius-topleft: 6px;
+    -moz-border-radius-bottomleft: 6px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+  }
+  
+  .w3l-newsletter button.btn {
+    width: 30%;
+    cursor: pointer;
+    line-height: 30px;
+    text-decoration: none;
+    -webkit-appearance: none;
+    display: inline-block;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #DB162F;
+    height: 50px;
+    float: right;
+    border-radius: 0;
+    -webkit-border-top-right-radius: 6px;
+    -webkit-border-bottom-right-radius: 6px;
+    -moz-border-radius-topright: 6px;
+    -moz-border-radius-bottomright: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+  
+  .w3l-newsletter button.btn:hover {
+    background: #006989;
+    color: #fff;
+    transition: 0.3s ease;
+  }
+  
+  .w3l-newsletter p.action-link {
+    padding: 0;
+    opacity: 0.8;
+    margin-top: 15px;
+  }
+  
+  .w3l-newsletter .subscription-img img {
+    display: block;
+  }
+  
+  @media all and (max-width: 992px) {
+    .w3l-newsletter .forms-25-info {
+      max-width: 600px;
+      text-align: left;
+    }
+  }
+  
+  @media all and (max-width: 690px) {
+    .w3l-newsletter .forms-25-info {
+      max-width: 600px;
+      text-align: left;
+    }
+  }
+  
+  @media all and (max-width: 650px) {
+    .w3l-newsletter .forms-25-info {
+      max-width: 550px;
+      text-align: left;
+    }
+  
+    .w3l-newsletter .forms-gds {
+      display: block;
+    }
+  
+    .w3l-newsletter .forms-25-info input,
+    .w3l-newsletter button.btn {
+      float: none;
+      width: 100%;
+      border-radius: 6px;
+    }
+  }
+  
+  @media all and (max-width: 440px) {
+    .w3l-newsletter .forms-25-info {
+      max-width: 400px;
+      text-align: left;
+    }
+  }
+   */
+
+
+.form-25-main {
+  background-image: url('/assets/images/slider.jpg');
+  /* Path relative to the public folder */
+  background-position: fixed;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  /* Adjust the height as needed */
+  position: relative;
+}
+
+
+
+.form-25-mian:before {
+  content: "";
+  background: rgba(8, 67, 76, 0.74);
+  position: absolute;
+  top: 0;
+  min-height: 100%;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.forms-25-info {
+  max-width: 600px;
+  text-align: left;
+  margin-left: auto;
+}
+
+h3.hny-title.two {
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 15px;
+  line-height: 26px;
+  color: black;
+}
+
+.forms-gds {
+  display: flex;
+}
+
+.forms-25-info input {
+  background: #fff;
+  width: 70%;
+  font-size: 16px;
+  padding: 0 15px;
+  color: black;
+  height: 50px;
+  outline: none;
+  border: none;
+  border-radius: 6px 0 0 6px;
+}
+
+button.btn {
+  width: 30%;
+  background: blue;
+  color: #fff;
+  height: 50px;
+  border-radius: 0 6px 6px 0;
+}
+
+button.btn:hover {
+  background: #006989;
+}
+
+p.action-link {
+  margin-top: 15px;
+  opacity: 0.8;
+}
+
+@media (max-width: 650px) {
+  .forms-gds {
+    display: block;
+  }
+
+  .forms-25-info input,
+  button.btn {
+    width: 100%;
+    border-radius: 6px;
+  }
+}
+
+/* .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  background-color: black;
+  opacity: 0.4;
+  z-index: 9999;
+} */
+
+/* .bgoverlayEffect {
+  z-index: -4444;
+} */
+
+/* .bgoverlayEffect>h1 h3 span .bgoverlayEffect>input {
+  z-index: 99999999999999999; */
+/* } */

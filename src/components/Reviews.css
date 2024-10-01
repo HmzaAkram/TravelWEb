@@ -1,0 +1,13 @@
+.reviews {
+    padding: 2rem;
+  }
+  
+  .review-item {
+    border-bottom: 1px solid #ddd;
+    padding: 0.5rem 0;
+  }
+  
+  .review-item:last-child {
+    border-bottom: none;
+  }
+  
