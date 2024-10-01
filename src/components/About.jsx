@@ -1,6 +1,6 @@
 import React from "react";
 import img from '../../public/assets/images/slider3.jpg';
-import About_usCss from "./about.module.css";
+import styles from './About.module.css';
 import Banner from "./Banner";
 
 function About() {
